@@ -28,4 +28,5 @@ with open('super.pdf', 'rb') as fileinput:
 
             with open("watermarked.pdf", 'wb')as file_output:
                 writer.write(file_output)
-                remove('super.pdf')
+
+remove('super.pdf')
