@@ -5,3 +5,4 @@ after what saves it as watermarked.pdf
 how to use:
 Paste this file in same dir with your pdf files
 run this program in terminal adding files you want to watermark as arguments.
+Your watermark pdf should be in the same folder with watermarker file and name must be 'wtr.pdf'
