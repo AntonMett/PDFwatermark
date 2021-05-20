@@ -1,7 +1,7 @@
 import PyPDF2
 import sys
 
-inputs = sys.argv[1:]  # From input (without spaces!)
+inputs = sys.argv[1:]
 
 
 def pdf_combine(pdf_list):
@@ -13,3 +13,8 @@ def pdf_combine(pdf_list):
 
 
 pdf_combine(inputs)
+watermark = 'wtr.pdf'
+
+
+def watermark_page():
+    with open(watermark, 'rb') as filegale
