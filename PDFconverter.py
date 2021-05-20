@@ -1,5 +1,6 @@
 import PyPDF2
 import sys
+from os import remove
 
 pdf_file_list = sys.argv[1:]
 watermark = 'wtr.pdf'
@@ -27,3 +28,4 @@ with open('super.pdf', 'rb') as fileinput:
 
             with open("watermarked.pdf", 'wb')as file_output:
                 writer.write(file_output)
+                remove('super.pdf')
